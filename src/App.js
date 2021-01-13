@@ -26,7 +26,7 @@ class App extends React.Component {
   render(){
     return (
       <div>
-          {/* Display the full list of Profiles */}
+          {/* Display the full list of Profiles using the Profile.js component*/}
           {/* Extra credit (a little more challenging): Add a form to add a new profile to the list  */}
       </div>
     );
