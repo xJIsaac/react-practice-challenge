@@ -1,12 +1,9 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css';
 
-class App extends React.Component {
+function App() {
 
-  constructor(props){
-    super(props)
-    this.state = {
-      profiles : [
+  const defaultProfiles = [
         {
           firstName : "Alfredo",
           lastName : "Salazar",
@@ -20,17 +17,14 @@ class App extends React.Component {
           id : 456
         }
       ]
-    }
-  }
   
-  render(){
+  
     return (
       <div>
           {/* Display the full list of Profiles using the Profile.js component*/}
           {/* Extra credit (a little more challenging): Add a form to add a new profile to the list  */}
       </div>
     );
-  }
 }
 
 export default App;
